@@ -24,7 +24,6 @@ const MainContainer = (): JSX.Element => {
         <main className="flex flex-wrap flex-1 justify-center flex-col">
             <Card/>
             <Card/>
-            <Card/>
         </main>
     )
 }
