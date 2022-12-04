@@ -4,14 +4,15 @@ import Image from "next/image";
 import Layout from "../components/Layout";
 
 import lebowski from '../assets/biglebowski.gif';
-import Title from "../utils/title";
+
+import Title_Path from "../utils/title";
 
 const About = (): JSX.Element => {
-
+    const Title = Title_Path + "Not Found";
     return (
         <>
             <Head>
-                <Title>Not Found</Title>
+                <title>{Title}</title>
             </Head>
             <Layout>
                 <div className="text-slate-300">

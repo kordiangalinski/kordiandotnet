@@ -1,13 +1,15 @@
 import Head from "next/head";
 
 import Layout from "../components/Layout";
-import Title from "../utils/title";
+
+import Title_Path from "../utils/title";
 
 const About = (): JSX.Element => {
+    const Title = Title_Path + "About";
     return (
         <>
             <Head>
-                <Title>About</Title>
+                <title>{Title}</title>
             </Head>
             <Layout>
                 <MainWrapper/>

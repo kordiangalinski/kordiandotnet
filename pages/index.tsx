@@ -3,13 +3,14 @@ import Image from "next/image";
 
 import Layout from "../components/Layout";
 
-import Title from "../utils/title";
+import Title_Path from "../utils/title";
 
 const Home = (): JSX.Element => {
+    const Title = Title_Path + "Home";
     return (
         <>
             <Head>
-                <Title>Home</Title>
+                <title>{Title}</title>
             </Head>
             <Layout>
                 <MainWrapper/>
