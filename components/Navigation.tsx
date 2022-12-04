@@ -8,6 +8,7 @@ const NavigationItems = [
     {label: "Curriculum Vitae", target: "/cv"},
     {label: "Blog", target: "/blog"},
     {label: "Instagram", target: "https://www.instagram.com/kordiangalinski/"},
+    {label: "Twitter", target: "https://www.twitter.com/kordiangalinski/"},
 ]
 
 const Navigation = (): JSX.Element => {
