@@ -6,7 +6,7 @@ const Layout = ({children}: any): JSX.Element => {
         <div className="bg-slate-800 w-screen min-h-screen flex">
             <div className="mx-auto container flex justify-center items-center md:flex-row flex-col">
                 <Navigation />
-                <div>
+                <div className="p-20 z-10 lg:max-h-[45rem] overflow-auto w-2/3">
                     {children}
                 </div>
             </div>
