@@ -39,4 +39,4 @@ next-env.d.ts
 .idea
 
 # Firebase Credentials
-./utils/firebase.ts
+utils/firebase.ts
