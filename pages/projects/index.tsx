@@ -55,8 +55,7 @@ interface CardProps {
     date: Timestamp
 };
 
-const Card = (props: CardProps): JSX.Element => {
-    return(
+const Card = (props: CardProps): JSX.Element => (
         <div className="p-2 shadow-xl text-slate-400">
             <h2 className="text-2xl">{props.title}</h2>
             <p>{props.content.substring(0, 200)}</p>
@@ -65,7 +64,6 @@ const Card = (props: CardProps): JSX.Element => {
                 <span>{props.date.toDate().toLocaleDateString()}</span>
             </div>
         </div>
-    );
-}
+);
 
 export default Projects;
